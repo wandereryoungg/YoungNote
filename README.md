@@ -19,4 +19,9 @@ class jar包打包成dex jar包命令
 在SDK的Build-tools里面
  .\dx.bat --dex --output= .\my_library_dx.jar .\my_library.jar
  
- 参考网站:https://blog.51cto.com/13952501/2169865
+参考网站:https://blog.51cto.com/13952501/2169865
+ 
+ 
+外部jar包和app模块使用同一接口规范实现，注意打包jar不能打包接口，可通过依赖其它包含该接口的库来实现，接口包名需一致，实现类包名需一致
+
+
