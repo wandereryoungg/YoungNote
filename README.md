@@ -30,4 +30,5 @@ git remote rm origin
 git branch --set-upstream-to origin/master
 git pull --allow-unrelated-histories
 
-
+--------------------------------adb命令----------------------------------------------------------------------------
+adb shell pm clear com.young.myapp
